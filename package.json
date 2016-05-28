@@ -1,0 +1,23 @@
+{
+  "name": "democraseed",
+  "version": "0.0.0",
+  "main": "./app/dist/server.js",
+  "typings": "./typings/tsd.d.ts",
+  "license": "UNLICENSED",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JakeSchieber/DemocraSeed"
+  },
+  "scripts": {
+    "start": "node ./app/dist/server.js"
+  },
+  "dependencies": {
+    "body-parser": "~1.4.2",
+    "express": "~4.5.1",
+    "method-override": "~2.0.2",
+    "mongoose": "~3.8.0",
+    "socket.io": "^1.3.7",
+    "co": "^4.6.0"
+  }
+}
